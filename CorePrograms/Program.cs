@@ -14,8 +14,9 @@ namespace CorePrograms
             Console.WriteLine("Enter problem statement:" +
                               "\n 1)Hello Username" +
                               "\n 2)Flip Coin" +
-                              "\n 3)HarmonicFunction"+
-                              "\n 4)Exit");
+                              "\n 3)HarmonicFunction" +
+                              "\n 4)LeapYear"+
+                              "\n 5)Exit");
 
             
             bool flag = true;
@@ -41,6 +42,11 @@ namespace CorePrograms
                         break;
 
                     case 4:
+                        LeapYear obj4 =new LeapYear();
+                        obj4.Leap();
+                        break;
+
+                    case 5:
                         flag = false;
                         break;
 
