@@ -13,7 +13,8 @@ namespace CorePrograms
             Console.WriteLine("Welcome to Core Programs");
             Console.WriteLine("Enter problem statement:" +
                               "\n 1)Hello Username" +
-                              "\n 2)Exit");
+                              "\n 2)Flip Coin"+
+                              "\n 3)Exit");
 
             
             bool flag = true;
@@ -29,6 +30,11 @@ namespace CorePrograms
                         break;
 
                     case 2:
+                        FlipCoin obj2 = new FlipCoin();
+                        obj2.Percentage();
+                        break;
+
+                    case 3:
                         flag = false;
                         break;
 
