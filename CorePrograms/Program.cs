@@ -13,8 +13,9 @@ namespace CorePrograms
             Console.WriteLine("Welcome to Core Programs");
             Console.WriteLine("Enter problem statement:" +
                               "\n 1)Hello Username" +
-                              "\n 2)Flip Coin"+
-                              "\n 3)Exit");
+                              "\n 2)Flip Coin" +
+                              "\n 3)HarmonicFunction"+
+                              "\n 4)Exit");
 
             
             bool flag = true;
@@ -35,6 +36,11 @@ namespace CorePrograms
                         break;
 
                     case 3:
+                        HarmonicFunction obj3 = new HarmonicFunction();
+                        obj3.Harmonic();
+                        break;
+
+                    case 4:
                         flag = false;
                         break;
 
