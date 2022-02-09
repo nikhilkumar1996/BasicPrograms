@@ -15,8 +15,9 @@ namespace CorePrograms
                               "\n 1)Hello Username" +
                               "\n 2)Flip Coin" +
                               "\n 3)HarmonicFunction" +
-                              "\n 4)LeapYear"+
-                              "\n 5)Exit");
+                              "\n 4)LeapYear" +
+                              "\n 5)Power Of 2"+
+                              "\n 6)Exit");
 
             
             bool flag = true;
@@ -47,6 +48,11 @@ namespace CorePrograms
                         break;
 
                     case 5:
+                        PowerOf2 obj5 = new PowerOf2();
+                        obj5.Power();
+                        break;
+
+                    case 6:
                         flag = false;
                         break;
 
