@@ -16,8 +16,9 @@ namespace CorePrograms
                               "\n 2)Flip Coin" +
                               "\n 3)HarmonicFunction" +
                               "\n 4)LeapYear" +
-                              "\n 5)Power Of 2"+
-                              "\n 6)Exit");
+                              "\n 5)Power Of 2" +
+                              "\n 6)Prime Factors"+
+                              "\n 7)Exit");
 
             
             bool flag = true;
@@ -53,6 +54,11 @@ namespace CorePrograms
                         break;
 
                     case 6:
+                        PrimeFactors obj6 = new PrimeFactors();
+                        obj6.Factors();
+                        break;
+
+                    case 7:
                         flag = false;
                         break;
 
